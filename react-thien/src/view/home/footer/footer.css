@@ -1,0 +1,22 @@
+.footer{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    color: black;
+}
+
+.footer > div {
+    width: 300px;
+}
+
+.footer-h3{
+    font-size: 20px;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.footer-p1 {
+    margin-bottom: 20px;
+}

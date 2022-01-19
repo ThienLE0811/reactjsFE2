@@ -1,0 +1,54 @@
+.content {
+    background: linear-gradient(rgb(40, 42, 53, 0.90),rgb(40, 42, 53, 0.90)), url('backgroundContent.png');
+    background-color: #282c34;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+.content-h1 {
+    color: #61dafb;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.content-p {
+    font-size: 26px;
+    padding-top: 25px;
+    font-weight: 200;
+}
+
+.content-btn {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.content-btn > button {
+    padding : 15px 30px;
+    font-size: 20px;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content-btn > button:hover {
+    background-color: azure;
+}
+
+.content-btn > a > a {
+    font-size: 20px;
+    padding-left: 25px;
+    color: #61dafb;
+} 
+
+.content-btn > a > i {
+    font-size: 15px;
+    color: #61dafb;
+    margin-left: 10px;
+    
+}
+
