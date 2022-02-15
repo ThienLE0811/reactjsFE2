@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    color: #c2c2d6
+    color: #c2c2d6;
 }
 
 
@@ -47,6 +47,11 @@ ul li a:hover{
   color:#61dafb;
   
 }
+
+ul li a.active {
+    color: #61dafb;
+}
+
 
 .header-p{
     display: inline-block;

@@ -1,20 +1,44 @@
 
 import './App.css';
 import Home from './home/home';
+import Header from './direction/header';
+import Docs from './Docs/doc';
 import Todo from './Todo/todo';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
     
-      <div className="container">
-        {/* <Home/> */}
-        <Todo/>
-        
-        </div>
+        <div className="container">
+          <Header/>
           
-      
-    </div>
+        
+          <Switch>
+          <Route path="/" exact>
+            <Home/>
+          </Route>
+          <Route path="/docs">
+            <Docs />
+          </Route>
+          <Route path="/tutorial">
+            <Todo />
+          </Route>
+        </Switch>
+
+        
+        </div>  
+      </div>
+    </Router>
   );
 }
 
